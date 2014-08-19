@@ -26,7 +26,7 @@ and open the template in the editor.
 
 
                     <p:panel style="width:800px;height:400px; position: relative; left: 400px; text-align: center; border-color: transparent; background-color: transparent">  
-                        <p:dataTable id="db" var="docente"  value="#{docenteController.ccnhDataModel}"
+                        <p:dataTable id="db" var="docente"  value="#{docenteController.ccnhLazyModel}"
                                      paginator="true" rows="5"
                                      selection="#{docenteController.docente}" selectionMode="single"
                                      paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
